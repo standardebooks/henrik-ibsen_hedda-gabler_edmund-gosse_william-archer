@@ -1,7 +1,7 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-/*Core drama*/
+/* Core drama */
 [epub|type~="z3998:drama"] table,
 table[epub|type~="z3998:drama"]{
 	border-collapse: collapse;
@@ -64,10 +64,9 @@ section[epub|type~="z3998:scene"] > p{
 	margin: 1em auto;
 	width: 75%;
 }
-/*End core drama*/
+/* End core drama */
 
-
-/*Together dialog*/
+/* Together dialog */
 tr.together{
 	break-inside: avoid;
 }
@@ -90,9 +89,9 @@ tr.together td + td{
 [epub|type~="z3998:drama"] .together td:last-child{
 	padding-left: .5em;
 }
-/*End together dialog*/
+/* End together dialog */
 
-/*Editorial stage directions*/
+/* Editorial stage directions */
 [epub|type~="z3998:stage-direction"].editorial::before{
 	content: "[";
 }
@@ -100,9 +99,9 @@ tr.together td + td{
 [epub|type~="z3998:stage-direction"].editorial::after{
 	content: "]";
 }
-/*End editorial stage directions*/
+/* End editorial stage directions */
 
-/*Stage direction abbr*/
+/* Stage direction abbr */
 abbr[epub|type~="z3998:stage-direction"]{
 	font-style: normal;
 	font-variant: all-small-caps;
@@ -110,11 +109,11 @@ abbr[epub|type~="z3998:stage-direction"]{
 
 abbr[epub|type~="z3998:stage-direction"]::before,
 abbr[epub|type~="z3998:stage-direction"]::after{
-	content: '';
+	content: "";
 }
-/*End stage direction abbr*/
+/* End stage direction abbr */
 
-/*Dramatis Personae*/
+/* Dramatis Personae */
 [epub|type~="z3998:dramatis-personae"]{
 	text-align: center;
 }
@@ -137,14 +136,14 @@ abbr[epub|type~="z3998:stage-direction"]::after{
 [epub|type~="z3998:dramatis-personae"] ul + p{
 	margin-top: 2em;
 }
-/*End Dramatis Personae*/
+/* End Dramatis Personae */
 
-/*Footer*/
+/* Footer */
 footer{
 	margin-top: 1em;
 	text-align: right;
 }
-/*End Footer*/
+/* End Footer */
 
 /* Verse blockquotes */
 [epub|type~="z3998:verse"] p{
@@ -163,7 +162,7 @@ footer{
 }
 /* End verse blockquotes */
 
-/*Editorial stage directions*/
+/* Editorial stage directions */
 [epub|type~="z3998:stage-direction"].editorial::before{
 	content: "[";
 }
@@ -171,7 +170,7 @@ footer{
 [epub|type~="z3998:stage-direction"].editorial::after{
 	content: "]";
 }
-/*End editorial stage directions*/
+/* End editorial stage directions */
 
-/*Text*/
-/*Text*/
+/* Text */
+/* Text */
