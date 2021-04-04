@@ -41,7 +41,7 @@
 		<meta property="term" refines="#subject-3">sh2008122993</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">Unknown</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Drama</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
@@ -56,36 +56,35 @@
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/henrik-ibsen_hedda-gabler_edmund-gosse-and-william-archer</meta>
 		<dc:creator id="author">Henrik Ibsen</dc:creator>
 		<meta property="file-as" refines="#author">Ibsen, Henrik</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Henrik Johan Ibsen</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Henrik_Ibsen</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n79070050</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="translator">Edmund Gosse and William Archer</dc:contributor>
-		<meta property="file-as" refines="#translator">Archer, Edmund Gosse and William</meta>
-		<meta property="se:name.person.full-name" refines="#translator">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">CONTRIBUTOR_NACOAF_URL</meta>
-		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
+		<dc:contributor id="translator-1">Edmund Gosse</dc:contributor>
+		<meta property="file-as" refines="#translator-1">Gosse, Edmund</meta>
+		<meta property="se:name.person.full-name" refines="#translator-1">Sir Edmund William Gosse</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-1">https://en.wikipedia.org/wiki/Edmund_Gosse</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-1">https://id.loc.gov/authorities/names/n80045877</meta>
+		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
+		<dc:contributor id="translator-2">William Archer</dc:contributor>
+		<meta property="file-as" refines="#translator-2">Archer, William</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-2">https://en.wikipedia.org/wiki/William_Archer_(critic)</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-2">https://id.loc.gov/authorities/names/n50023509</meta>
+		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
+		<meta property="role" refines="#translator-2" scheme="marc:relators">aoi</meta>
 		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Douglas Levy</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Levy, Douglas</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">for Nikki</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_SORT</meta>
+		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3"></dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">TRANSCRIBER_SORT</meta>
-		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-4">David Widger</dc:contributor>
-		<meta property="file-as" refines="#transcriber-4">TRANSCRIBER_SORT</meta>
-		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Asher Smith</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Smith, Asher</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
