@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/henrik-ibsen/hedda-gabler/edmund-gosse-and-william-archer</dc:identifier>
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/henrik-ibsen/hedda-gabler/edmund-gosse_william-archer</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
@@ -53,7 +53,7 @@
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Hedda_Gabler</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/henrik-ibsen_hedda-gabler_edmund-gosse-and-william-archer</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/henrik-ibsen_hedda-gabler_edmund-gosse_william-archer</meta>
 		<dc:creator id="author">Henrik Ibsen</dc:creator>
 		<meta property="file-as" refines="#author">Ibsen, Henrik</meta>
 		<meta property="se:name.person.full-name" refines="#author">Henrik Johan Ibsen</meta>
@@ -71,7 +71,7 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-2">https://en.wikipedia.org/wiki/William_Archer_(critic)</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-2">https://id.loc.gov/authorities/names/n50023509</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
-		<meta property="role" refines="#translator-2" scheme="marc:relators">aoi</meta>
+		<meta property="role" refines="#translator-2" scheme="marc:relators">aui</meta>
 		<dc:contributor id="artist">Cornelius Gijsbrechts</dc:contributor>
 		<meta property="file-as" refines="#artist">Gijsbrechts, Cornelius</meta>
 		<meta property="se:name.person.full-name" refines="#artist">Cornelis Norbertus Gijsbrechts</meta>
