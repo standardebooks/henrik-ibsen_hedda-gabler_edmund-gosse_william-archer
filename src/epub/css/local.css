@@ -64,16 +64,6 @@ section[epub|type~="z3998:scene"] > p{
 }
 /* End core drama */
 
-/* Editorial stage directions */
-[epub|type~="z3998:stage-direction"].editorial::before{
-	content: "[";
-}
-
-[epub|type~="z3998:stage-direction"].editorial::after{
-	content: "]";
-}
-/* End editorial stage directions */
-
 /* Stage direction abbr */
 abbr[epub|type~="z3998:stage-direction"]{
 	font-style: normal;
@@ -115,6 +105,10 @@ abbr[epub|type~="z3998:stage-direction"]::after{
 footer{
 	margin-top: 1em;
 	text-align: right;
+}
+
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
 }
 /* End Footer */
 
