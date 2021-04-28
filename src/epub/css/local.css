@@ -64,18 +64,6 @@ section[epub|type~="z3998:scene"] > p{
 }
 /* End core drama */
 
-/* Stage direction abbr */
-abbr[epub|type~="z3998:stage-direction"]{
-	font-style: normal;
-	font-variant: all-small-caps;
-}
-
-abbr[epub|type~="z3998:stage-direction"]::before,
-abbr[epub|type~="z3998:stage-direction"]::after{
-	content: "";
-}
-/* End stage direction abbr */
-
 /* Dramatis Personae */
 [epub|type~="z3998:dramatis-personae"]{
 	text-align: center;
@@ -111,23 +99,3 @@ footer{
 	font-variant: small-caps;
 }
 /* End Footer */
-
-/* Verse blockquotes */
-[epub|type~="z3998:verse"] p{
-	text-align: initial;
-	text-indent: 0;
-}
-
-[epub|type~="z3998:verse"] p > span{
-	display: block;
-	padding-left: 1em;
-	text-indent: -1em;
-}
-
-[epub|type~="z3998:verse"] p > span + br{
-	display: none;
-}
-/* End verse blockquotes */
-
-/* Text */
-/* Text */
