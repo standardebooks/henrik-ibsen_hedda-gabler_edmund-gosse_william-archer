@@ -58,19 +58,19 @@
 		<meta property="file-as" refines="#author">Ibsen, Henrik</meta>
 		<meta property="se:name.person.full-name" refines="#author">Henrik Johan Ibsen</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Henrik_Ibsen</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n79070050</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79070050</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator-1">Edmund Gosse</dc:contributor>
 		<meta property="file-as" refines="#translator-1">Gosse, Edmund</meta>
 		<meta property="se:name.person.full-name" refines="#translator-1">Sir Edmund William Gosse</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-1">https://en.wikipedia.org/wiki/Edmund_Gosse</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-1">https://id.loc.gov/authorities/names/n80045877</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-1">http://id.loc.gov/authorities/names/n80045877</meta>
 		<meta property="se:role" refines="#translator-1" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-2">William Archer</dc:contributor>
 		<meta property="file-as" refines="#translator-2">Archer, William</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-2">https://en.wikipedia.org/wiki/William_Archer_(critic)</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-2">https://id.loc.gov/authorities/names/n50023509</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/n50023509</meta>
 		<meta property="se:role" refines="#translator-2" scheme="marc:relators">ann</meta>
 		<meta property="se:role" refines="#translator-2" scheme="marc:relators">aui</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
@@ -78,7 +78,7 @@
 		<meta property="file-as" refines="#artist">Gijsbrechts, Cornelius</meta>
 		<meta property="se:name.person.full-name" refines="#artist">Cornelis Norbertus Gijsbrechts</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Cornelis_Norbertus_Gijsbrechts</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/nb99113488</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nb99113488</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Douglas Levy</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Levy, Douglas</meta>
