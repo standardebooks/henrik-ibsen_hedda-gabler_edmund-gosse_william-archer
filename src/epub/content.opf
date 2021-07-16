@@ -42,6 +42,8 @@
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">Unknown</meta>
 		<meta property="se:subject">Drama</meta>
+		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">Newly-married Hedda Gabler struggles to control her life and the lives of those around her.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Hedda, the proud and willful daughter of General Gabler, newly married to George Tesman, returns from her honeymoon to Norway. She chafes at the prospect of a dull life in a loveless marriage until a former lover, Eilert Løvborg, returns and throws their financial future into disarray. The appearance of Hedda’s old schoolmate Thea, who wants to reform Løvborg, and Judge Brack, who wants Hedda in his power, leave her struggling to build the life she wants.&lt;/p&gt;
